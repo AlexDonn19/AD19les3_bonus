@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	min-width: 575px;
+}
+body{
+	padding: 2% 5% 2%;
+	background: url("../img/fon.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+
+/*                  PAGE                  */
+
+.page {
+	padding: 0 4%;
+	font-family: sans-serif;
+}
+
+/*  --------------  HEADER  --------------  */
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.header {
+	display: block;
+	position: relative;
+	height: 175px;
+	font-size: 11px;
+	color: white;
+}
+.logo {
+	display: block;
+	position: absolute;
+	float: left;
+	background: url("../img/bonus-logo.png") no-repeat;
+	background-size: 315px 175px;
+	width: 315px;
+	height: 175px;
+	text-align: center;
+}
+.logo p {
+	margin-top: 140px;
+	font-size: 12px;
+}
+.contact {
+	float: right;
+	position: absolute;
+	bottom: 8px;
+	right: 32px;
+	font-size: 13px;
+	text-align: left;
+}
+
+
+/*  --------------  LAYOUT  --------------  */
+
+.menu{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+	display: inline-block;
+	width: 30%;
+	margin-right: 3%;
+	text-align: left;
+	
+}
+.menu li:last-child {
+	margin-right: 0;
+}
+.container {
+	text-align: center;
+}
+.menu li img{
+	border: 3px ridge #aaaaaa;
+	width: 100%;
+}
+.menu ul li:hover{
+	text-decoration: underline;
+}
+.menu li p a{
+	display: block;	
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/*  --------------  FOOTER  --------------  */
+
+.footer{
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}
